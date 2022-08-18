@@ -37,6 +37,6 @@ driver.find_element(By.XPATH,"//input[@type='submit']").click()
 success_text = driver.find_element(By.CSS_SELECTOR, "[class*='alert-success alert']").text
 assert "Success! Thank you!" in success_text
 print("test case pass")
-print(":git x")
+print(":git xhhhh")
 driver.close()
 
