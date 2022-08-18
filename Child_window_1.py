@@ -14,6 +14,7 @@ assert "New Window" in child_window_text
 driver.close()
 driver.switch_to.window(windows_opened[0])
 parent_window_text = driver.find_element(By.TAG_NAME, "h3").text
+print("modified code in child window_1")
 
 assert "Opening a new window" in parent_window_text
 
